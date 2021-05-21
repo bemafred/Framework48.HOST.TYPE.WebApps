@@ -14,7 +14,7 @@ using System.Web;
 using log4net;
 #endif
 
-namespace Framework48.Selfhosted.MVC4.WebLib
+namespace Framework48.Selfhosted.MVC4.WebApp
 {
     internal class Listener : IDisposable
     {

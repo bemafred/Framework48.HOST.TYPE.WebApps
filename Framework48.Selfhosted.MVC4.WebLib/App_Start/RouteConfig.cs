@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Framework48.Selfhosted.MVC4.WebApp
+namespace Framework48.Selfhosted.MVC4.WebLib
 {
     public class RouteConfig
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Framework48.Selfhosted.MVC4.WebApp.Controllers
+namespace Framework48.Selfhosted.MVC4.WebLib.Controllers
 {
     public class HomeController : Controller
     {

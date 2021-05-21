@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Framework48.Selfhosted.MVC4.WebApp
+namespace Framework48.Selfhosted.MVC4.WebLib
 {
     public static class WebApiConfig
     {

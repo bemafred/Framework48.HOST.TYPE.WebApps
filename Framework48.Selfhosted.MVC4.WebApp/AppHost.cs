@@ -17,7 +17,7 @@ using log4net;
 using log4net.Config;
 #endif
 
-namespace Framework48.Selfhosted.MVC4.WebLib
+namespace Framework48.Selfhosted.MVC4.WebApp
 {   
     //this class will exist in the new appdomain to facilitate processing requests    
     public class AppHost : MarshalByRefObject
