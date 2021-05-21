@@ -93,6 +93,18 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\favicon.ico $(TargetDir)www.root\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\global.asax $(TargetDir)www.root\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\Web.config $(TargetDir)www.root\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\bin $(TargetDir)www.root\bin\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\Content $(TargetDir)www.root\Content\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\fonts $(TargetDir)www.root\fonts\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\Scripts $(TargetDir)www.root\Scripts\ /Y
+XCOPY $(SolutionDir)Framework48.Selfhosted.MVC4.WebLib\Views $(TargetDir)www.root\Views\ /Y
+
+</PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
