@@ -21,6 +21,7 @@ namespace Framework48.Selfhosted.MVC4.WebApp
             AppHost.HostAndSetup<MvcApplication>(virtualDir, relativePath, port);
 
             Console.WriteLine($"Listening on http://localhost:{port}/{relativePath}");
+            Console.ReadLine();
         }
     }
 }
