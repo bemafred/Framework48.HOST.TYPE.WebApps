@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Routing;
 
-namespace Framework48.Selfhosted.MVC4.WebApp
+namespace Framework48.Selfhosted.MVC4.WebLib
 {
     //disguise the usual System.Web internal StaticFileHandler class as a HttpModule
     public class StaticFileHandlerModule : IHttpModule

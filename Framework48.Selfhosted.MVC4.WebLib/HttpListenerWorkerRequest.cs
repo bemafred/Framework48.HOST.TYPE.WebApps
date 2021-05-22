@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace Framework48.Selfhosted.MVC4.WebApp
+namespace Framework48.Selfhosted.MVC4.WebLib
 {
     internal class HttpListenerWorkerRequest : HttpWorkerRequest
     {

@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework48.Selfhosted.OWIN.WebApp", "Framework48.Selfhosted.OWIN.WebApp\Framework48.Selfhosted.OWIN.WebApp.csproj", "{D36AD3DE-70A0-4C58-9571-B7F016621104}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{353914E9-45BD-4A85-AF3A-C232F74295A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{353914E9-45BD-4A85-AF3A-C232F74295A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{353914E9-45BD-4A85-AF3A-C232F74295A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36AD3DE-70A0-4C58-9571-B7F016621104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36AD3DE-70A0-4C58-9571-B7F016621104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36AD3DE-70A0-4C58-9571-B7F016621104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36AD3DE-70A0-4C58-9571-B7F016621104}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

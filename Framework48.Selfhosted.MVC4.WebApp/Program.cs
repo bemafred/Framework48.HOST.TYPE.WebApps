@@ -15,12 +15,12 @@ namespace Framework48.Selfhosted.MVC4.WebApp
             Console.WriteLine("Hello from .NET Framework 4.8 & MVC4");
 
             string virtualDir = "/";
-            string relativePath = $"app.publish"; // A post build step copies/publishes the WebLib to the .\[Debug|Release]\app.publish folder.
-            const int port = 8080;
+            string relativePath = $"app.publish"; 
+            const int port = 44333;
 
             AppHost.HostAndSetup<MvcApplication>(virtualDir, relativePath, port);
 
-            Console.WriteLine($"Listening on http://localhost:{port}/{relativePath}");
+            Console.WriteLine($"Listening on http://localhost:{port}{virtualDir}");
             Console.ReadLine();
         }
     }
